@@ -21,7 +21,8 @@ However, finding the right input settings can be challenging because market cond
 This is where TTC Optimiser comes in.
 
 ## 2. What is TTC Optimiser?
-<img width="1281" height="615" alt="NIFTY_2026-10-30_23-08-34" src="https://github.com/user-attachments/assets/5fac85f9-acaf-4d42-b37e-693a8a3e6ec5" />
+<img width="1281" height="615" alt="NIFTY_2026-10-30_23-38-36" src="https://github.com/user-attachments/assets/feb12be9-aec8-491a-b546-6b547f4a88f1" />
+
 
 TTC Optimiser is a tool designed to find the best-performing input settings for TTC Strategy.
 
