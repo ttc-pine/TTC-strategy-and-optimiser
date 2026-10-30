@@ -121,8 +121,21 @@ TTC Optimiser includes an input to configure the commission charged on each trad
 
 This allows you to account for trading costs when evaluating the performance of different parameter combinations.
 
-By including commission in the backtest, you can compare the parameters based on results that better reflect the impact of trading costs.
+Commission is specified as a percentage and applied to both entry and exit transaction values.
 
+**Formula:**
+
+```text
+Commission = (Commission Rate / 100)
+             × (Entry Price + Exit Price)
+```
+
+For example, with a commission rate of 0.1%, an entry price of 100, and an exit price of 110:
+
+```text
+Commission = (0.1 / 100) × (100 + 110)
+           = 0.21
+```
 ### E. Long and Short Trade Settings
 <img width="157" height="123" alt="Screenshot 2026-10-30 231433" src="https://github.com/user-attachments/assets/5c0140d6-10ed-4f8d-b24c-d176dd054a15" />
 
