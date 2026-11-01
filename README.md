@@ -62,7 +62,7 @@ This allows you to quickly identify which settings have historically performed b
 
 **In simple terms:** TTC Strategy generates trading signals, while TTC Optimiser helps you find suitable input settings for that strategy by systematically testing and comparing different parameter combinations.
 
-## 3. Optimiser Features
+## 3. Optimiser Features/Settings
 
 TTC Optimiser offers several features that allow you to configure how the best-performing parameters are identified and selected. Using these features, you can customise the optimisation process according to your trading preferences and requirements.
 
@@ -87,7 +87,7 @@ Based on your selection, the optimiser ranks the tested combinations and display
 This gives you the flexibility to choose settings according to your trading preferences and objectives.
 
 ### B. Parameter Configuration
-<img width="509" height="168" alt="Screenshot 2026-10-30 231050" src="https://github.com/user-attachments/assets/843b710e-1eca-4f82-991b-f0fa58aca691" />
+<img width="524" height="237" alt="Screenshot 2026-11-01 232400" src="https://github.com/user-attachments/assets/a27e25e8-2b90-4a88-8115-90ce8afeb2ce" />
 
 
 TTC Optimiser provides a dedicated group of settings that allows you to configure which parameter combinations should be tested for TTC Strategy.
@@ -95,6 +95,70 @@ TTC Optimiser provides a dedicated group of settings that allows you to configur
 Using these settings, you can define the range of values and the steps between values for both Input 1 and Input 2.
 
 This gives you control over the optimisation process and allows you to focus on the parameter ranges you want to explore.
+
+### Parameter Configuration Modes
+
+The TTC Optimiser provides two modes for configuring parameter ranges:
+
+1. **Custom Configuration**
+2. **Prebuilt Ranges**
+
+### 1. Custom Configuration
+<img width="517" height="141" alt="Screenshot 2026-11-01 232844" src="https://github.com/user-attachments/assets/1faab4a0-4819-48a8-9f64-58f450d78d48" />
+
+The Custom Configuration mode allows you to define your own parameter ranges and test combinations according to your specific requirements.
+
+It provides six inputs to configure the parameter ranges:
+
+- **Start Input 1:** The starting value of the first parameter.
+- **Iteration Input 1:** The number of different values to generate and test for the first parameter.
+- **Steps Input 1:** The increment between two consecutive values of the first parameter.
+- **Start Input 2:** The starting value of the second parameter.
+- **Iteration Input 2:** The number of different values to generate and test for the second parameter.
+- **Steps Input 2:** The increment between two consecutive values of the second parameter.
+
+### Example
+
+Let's understand how these inputs work with an example.
+
+Suppose you configure the parameters as follows:
+
+**Input 1:**
+- Start Input 1 = 1
+- Iteration Input 1 = 5
+- Steps Input 1 = 1
+
+**Input 2:**
+- Start Input 2 = 0.5
+- Iteration Input 2 = 4
+- Steps Input 2 = 0.5
+
+INPUT 1 = 1, 5, 1 \
+INPUT 2 = 0.5, 4, 0.5 
+
+Based on these configurations, the optimiser generates the following parameter combinations:
+
+| Input 1 | Input 2 values |
+|---|---|
+| 1 | 0.5, 1, 1.5, 2 |
+| 2 | 0.5, 1, 1.5, 2 |
+| 3 | 0.5, 1, 1.5, 2 |
+| 4 | 0.5, 1, 1.5, 2 |
+| 5 | 0.5, 1, 1.5, 2 |
+
+This results in a total of **20 parameter combinations (5 × 4)** being tested.
+
+### 2. Prebuilt Ranges
+<img width="466" height="190" alt="Screenshot 2026-11-01 232706" src="https://github.com/user-attachments/assets/edae9539-db43-4d72-83c7-e24879324071" />
+
+
+Prebuilt Ranges are predefined parameter configurations based on ranges in which we have observed the TTC Strategy performing well.
+
+These ranges are designed to help you explore promising parameter combinations without having to configure the inputs manually.
+
+We recommend testing all four prebuilt ranges to get a broader evaluation of the available parameter combinations and identify potentially better-performing settings.
+
+**Each prebuilt range tests 1,000 parameter combinations**, allowing you to evaluate a wide range of configurations with minimal manual effort.
 
 ### C. Filtering Optimisation Results
 <img width="292" height="302" alt="Screenshot 2026-10-26 113120" src="https://github.com/user-attachments/assets/2f0016f5-ea68-4a6d-ac8a-162f9623b1a8" />
