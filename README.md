@@ -1,4 +1,4 @@
-# TTC Strategy & TTC Optimiser
+# TTC Strategy and Optimiser
 
 ## 1. What is TTC Strategy?
 <img width="1153" height="412" alt="Screenshot 2026-10-30 232503" src="https://github.com/user-attachments/assets/b1a52918-69be-48bb-b1bd-3183eb4d65fe" />
@@ -39,11 +39,11 @@ TTC Strategy has two adjustable inputs:
 - Input 1
 - Input 2
 
-TTC Optimiser tests **800 different combinations** of these two inputs.
+TTC Optimiser tests **800 different combinations(in default setting)** of these two inputs.
 
 For every combination, it runs a backtest of TTC Strategy using the available chart data and analyses the resulting performance report.
 
-After comparing all 800 combinations, it identifies and displays the **top 5 best-performing parameter combinations** based on your selected performance criteria.
+After comparing all combinations, it identifies and displays the **top 5 best-performing parameter combinations** based on your selected performance criteria.
 
 This allows you to quickly identify which settings have historically performed best for a particular symbol and timeframe without manually testing hundreds of combinations.
 
