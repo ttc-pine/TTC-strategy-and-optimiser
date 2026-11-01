@@ -1,4 +1,4 @@
-# TTC Strategy and Optimiser
+#Documentation of TTC Strategy and Optimiser
 
 ## 1. What is TTC Strategy?
 <img width="1153" height="412" alt="Screenshot 2026-10-30 232503" src="https://github.com/user-attachments/assets/b1a52918-69be-48bb-b1bd-3183eb4d65fe" />
