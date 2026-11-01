@@ -149,6 +149,17 @@ This allows you to optimise TTC Strategy according to your preferred trading dir
 - **Short Only:** Tests the strategy using only short (sell) trades.
 
 
+## Performance Reports
+
+The following reports present the backtesting results of the TTC strategy using the best-performing parameter combinations identified by the TTC optimiser, based on the available chart data for the NIFTY 50 Index across nine timeframes: 1-minute, 3-minute, 5-minute, 10-minute, 15-minute, 30-minute, 1-hour, 4-hour, and daily.
+
+![performance in NIFTY50](performance-reports/NIFTY50-report.gif)
+
+### Important Note on Backtesting
+
+Due to TradingView's limitations, the optimiser can backtest parameter combinations only on the historical data available on the chart. Therefore, the top-performing parameters identified by the optimiser are based on the available chart data and may not be the best-performing parameters across the entire historical period.
+
+
 ## Important Note
 
 **The optimiser identifies parameters based on historical backtesting results. Past performance does not guarantee future results.**
