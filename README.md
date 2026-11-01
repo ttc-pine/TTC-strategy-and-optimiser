@@ -151,7 +151,7 @@ This allows you to optimise TTC Strategy according to your preferred trading dir
 
 ## Performance Reports
 
-The following reports present the backtesting results of the TTC strategy using the best-performing parameter combinations identified by the TTC optimiser, based on the available chart data for the NIFTY 50 Index across nine timeframes: 1-minute, 3-minute, 5-minute, 10-minute, 15-minute, 30-minute, 1-hour, 4-hour, and daily.
+The following reports present the backtesting results of the TTC strategy using the best-performing parameter combinations identified by the TTC optimiser, based on the available chart data for the NIFTY 50 Index across eight timeframes: 1-minute, 3-minute, 5-minute, 10-minute, 15-minute, 30-minute, 1-hour and 4-hour.
 
 ![performance in NIFTY50](performance-reports/NIFTY50-report.gif)
 
